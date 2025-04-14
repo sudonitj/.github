@@ -23,25 +23,25 @@ At the heart of SUDO lies a commitment to a **layered, zero-dependency developme
 
 ```mermaid
 flowchart TD
-    subgraph SUDO Ecosystem
-        App[Applications Layer\n(e.g., Chat App, Custom Shell)]
-        Tool[Tools & Utilities Layer\n(e.g., Encryption CLI, Custom `grep`)]
-        CoreLib[Core Libraries Layer\n(e.g., `sudo-linalg`, `sudo-crypto`, `sudo-datastructures`)]
+    subgraph "SUDO Ecosystem"
+        App["Applications Layer (Chat App, Shell)"]
+        Tool["Tools & Utilities Layer (CLI tools)"]
+        CoreLib["Core Libraries Layer (math, crypto, data structures)"]
 
         App --> Tool
         App --> CoreLib
         Tool --> CoreLib
     end
 
-    style App fill:#cce5ff,stroke:#333,stroke-width:2px
-    style Tool fill:#ccffcc,stroke:#333,stroke-width:2px
-    style CoreLib fill:#ffebcc,stroke:#333,stroke-width:2px
+    style App fill:#51647f,stroke:#333,stroke-width:2.5px,color:white
+    style Tool fill:#415b41,stroke:#333,stroke-width:2.5px,color:white
+    style CoreLib fill:#66553d,stroke:#333,stroke-width:2.5px,color:white
 
-    subgraph External World
-        ExtLib[External Dependencies\n(Minimized / Avoided)]
+    subgraph "External World"
+        ExtLib["External Dependencies (Minimized/Avoided)"]
     end
 
-    CoreLib -.->|Ideally Replaces| ExtLib;
+    CoreLib -.->|Ideally Replaces| ExtLib
 ```
 
 Diagram: Higher layers utilize components built in the lower layers within the SUDO ecosystem, minimizing external dependencies.
