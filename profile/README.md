@@ -52,7 +52,7 @@ This methodology provides significant benefits, particularly in an academic and 
 
 - **Deep Foundational Knowledge:** Participants gain unparalleled insight into how fundamental software components are designed, implemented, and interact.
 
-- **Practical C/Systems Mastery:** Develop strong, practical skills in C programming, memory management, build systems, and OS-level concepts.
+- **Practical Systems Mastery:** Develop strong, practical skills in C or any other programming, memory management, build systems, and OS-level concepts.
 
 - **API Design & Interoperability:** Learn to design, implement, and document clear APIs for internal libraries and potentially explore Foreign Function Interfaces (FFI) for cross-language use later.
 
