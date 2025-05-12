@@ -108,7 +108,7 @@ Clear, comprehensive documentation is not an afterthought; it is integral to our
 
 - **Identify Opportunities:** Look for "good first issues" labels, areas needing tests or documentation, or small features you'd like to add to foundational libraries.
 
-- **Connect (Recommended):** Join our primary communication channel [Discord](https://discord.gg/vfpxX6WW) to discuss ideas, ask questions, and coordinate efforts.
+- **Connect (Recommended):** Join our primary communication channel [Discord](https://discord.gg/bxHZFjtk) to discuss ideas, ask questions, and coordinate efforts.
 
 - **Contribute:** Follow the standard GitHub flow (Fork -> Branch -> Code -> Pull Request).
 
